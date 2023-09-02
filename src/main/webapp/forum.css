@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.create-post, .posts {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+}
