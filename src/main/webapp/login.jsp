@@ -81,23 +81,6 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="alert/dist/sweetalert.css">
     <script type="text/javascript">
-    var status = document.getElementById("status").value;
-    if(status == "failed"){
-        // Authentication successful, you can redirect to a new page or perform other actions.
-        // For demonstration, we'll show a success message.
-        Swal.fire({
-            icon: 'success',
-            title: 'Login Successful',
-            text: 'Welcome, ' + enteredUsername + '!',
-        });
-    } else {
-        // Wrong username or password, show an error message.
-        Swal.fire({
-            icon: 'error',
-            title: 'Login Failed',
-            text: 'Wrong username or password.',
-        });
-    }
     </script>
 </body>
 <!-- This templates was made by Colorlib (https://colorlib.com) -->
